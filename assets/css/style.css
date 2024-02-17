@@ -348,6 +348,11 @@
      height: 8em;
      width: 8em;
    }
+
+   .image-1,
+   .image-2 {
+     display: none;
+   }
  }
 
  @media screen and (max-width: 500px) {
@@ -2659,14 +2664,25 @@
 
  /** working-section **/
 
+ @media screen and (max-width: 768px) {
+
+   .text-center2 {
+     text-align: center;
+   }
+ 
+ }
+
+
  .working-section {
    position: relative;
+
  }
 
  .working-section .upper-box .text {
    position: relative;
    display: block;
    margin-top: 25px;
+
  }
 
  .working-block-one .inner-box {
@@ -12137,12 +12153,12 @@
 
  .google-map-section {
    position: relative;
-   
+
  }
 
  #contact-google-map {
    position: relative;
    width: 100%;
    height: 500px;
-   
+
  }
