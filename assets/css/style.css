@@ -2444,9 +2444,9 @@ div#mCSB_1_container {
   transition: all 500ms ease;
 }
 
-.service-block-two .inner-box:hover .content-box {
+/* .service-block-two .inner-box:hover .content-box {
   opacity: 0;
-}
+} */
 
 .service-block-two .inner-box .content-box .link {
   position: absolute;
